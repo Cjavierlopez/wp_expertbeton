@@ -1,0 +1,24 @@
+{
+  "name": "project_expert_beton",
+  "version": "1.0.0",
+  "description": "WP expert beton",
+  "main": "helpers.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "WDC (Carlos Javier Lopez)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.4",
+    "standart": "^6.1.0"
+  }
+}
