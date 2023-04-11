@@ -1,0 +1,30 @@
+h2 {
+  font-size: 4.5vw ;
+}
+
+p {
+  text-align: justify;
+  font-size: 3vw;
+}
+
+ol {
+  margin: 10px;
+  padding-left: 10px;
+  font-size: 3vw;
+}
+
+@media (min-width: 765px) {
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  ol {
+    font-size: 25px;
+    padding: 0px 20px 0px 40px;
+  }
+}

@@ -99,7 +99,7 @@ main {
   width: 100%;
   height: 100%;
   animation: slide 40s infinite;
-  opacity: 0.8;
+  opacity: 0.9;
   object-fit: cover;
 }
 
@@ -148,10 +148,11 @@ main {
 .tape_slide {
   position: absolute;
   width: 100%;
-  height: 15vw;
+  height: 9vw;
   background-color: #A3151A;
   opacity: 0.8;
   display: flex;
+  margin-top: 50%;
   justify-content: center;
   align-items: center;
 }
@@ -167,7 +168,7 @@ main {
   justify-items: center;
   align-items: center;
   margin-top: 15%;
-  background-color: #a3151a16;
+  background-color: #a3151a0a;
 }
 
 .aboutUs h2 {
@@ -365,7 +366,7 @@ a:hover{
   }
 
   .tape_slide {
-    height: 130px;
+    height: 80px;
   }
 
   .square {
