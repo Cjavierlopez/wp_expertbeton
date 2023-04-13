@@ -17,8 +17,12 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.get("/produits", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "produits.html"));
+app.get("/Bprefab", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "bprefab.html"));
+});
+
+app.get('/Bpreta', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'bpreta.html'));
 });
 
 app.get("/form", (req, res) => {

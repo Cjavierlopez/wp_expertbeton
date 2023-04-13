@@ -1,0 +1,118 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 10px 0;
+  width: 100%;
+  background-color: #ffb9bb1a;
+}
+
+.product h2 {
+  margin: 2% 0 0 0;
+  color: #630D10;
+  font-size: 6vw;
+}
+
+.product hr {
+  margin: 0;
+  width: 80%;
+  border-color: #e52e31;
+}
+
+.product p {
+  font-size: 3vw;
+  width: 90%;
+  color: #630D10;
+  margin: 2% 0 0 0;
+  text-align: center;
+}
+
+.p3 div.pros {
+  flex-direction: column;
+}
+
+.p3 p, .p8 p {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.pros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  justify-items: center;
+  margin: 10% 0 2% 0;
+  width: 100%;
+  height: 100%;
+}
+
+.squarep {
+  border-radius: 10px;
+  box-shadow: -4px 4px 4px rgba(99, 13, 16, 0.5);
+  background-color: #fff;
+  width: 26vw;
+  height: 26vw;
+  max-width: 201px;
+  max-height: 201px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pros .squarep p {
+  position: absolute;
+  margin: 5px;
+  top: 0;
+  font-size: 3vw;
+}
+
+
+.pros div img {
+  height: 21vw;
+  max-height: 164px;
+}
+
+.pdf {
+  margin: 2% 0 2% 0;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.pdf a {
+  text-decoration: none;
+  color:#A31514;
+}
+
+.pdf:hover {
+  transform: scale(1.2);
+}
+
+
+/**************************************************************************/
+
+@media (min-width: 768px) {
+
+  .product h2 {
+    font-size: 46px;
+  }
+
+  .product p {
+    font-size: 23px;
+  }
+  
+  .pdf {
+    font-size: 23px;
+  }
+
+  .pros .squarep p {
+  font-size: 20px;
+}
+
+}

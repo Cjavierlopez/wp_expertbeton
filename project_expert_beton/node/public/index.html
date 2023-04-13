@@ -12,25 +12,37 @@
   <meta property="og:image:height" content="215" />
   
   
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
+  <link rel="stylesheet" href="allStyle.css">
+  
   <title>Expert Béton</title>
 
 </head>
 <body>
   <main>
     <div class="menu-static">
-      <div class="navBar">
-          <figure class="overlay">
-            <img src="images/header.jpg" alt="Camion de ciment faisant le plein">
-          </figure>
-        <figure class="logoHead">
-          <a href="./index.html">
-            <img src="images/logo_eb_large_white_wobg.png" alt="Logo Expert Beton">
-          </a>
-        </figure>
-          <button class="pBtn" onclick="window.location.href='/produits'">Produits</button>
+      <figure class="logoHead">
+        <a href="./index.html">
+          <img src="images/logo_eb_large_grey_wobg.png" alt="Logo Expert Beton">
+        </a>
+      </figure>
+      <input type="checkbox" id="toggle">
+      <label for="toggle" class="menuBtn">
+        <div class="Fl"></div>
+        <div class="Sl"></div>
+        <div class="Tl"></div>
+      </label>
+      <div class="dropdown">
+        <div class="dropdown-wrapper">
+          <nav>
+            <a href="/Bpreta">BÉTON prêt à l'emploie</a>
+            <br>
+            <a href="/Bprefab">BÉTON préfabriqué</a>
+          </nav>
+        </div>
+      </div>
+      <div class="new-nav">
+        <button class="pBtn2" onclick="window.location.href='/Bpreta'">BÉTON <hr class="red"> prêt à l'emploie</button>
+        <button class="pBtn" onclick="window.location.href='/Bprefab'">BÉTON <hr class="red"> préfabriqué</button>
       </div>
     </div>
     <section class="sliderContainer">
@@ -41,8 +53,8 @@
         <img src="./images/slider_04.jpg" alt="slider_04">
       </div>
       <div class="tape_slide">
-          <p>SITE WEB BIENTÔT EN LIGNE!</p>
-        </div>
+          <p>SITE EN CONSTRUCTION!</p>
+      </div>
     </section>
     <section class="aboutUs">
       <h2>Qui sommes nous?</h2>
@@ -54,20 +66,17 @@
     </section>
     <footer>
       <section class="footer">
-        <figure class="overlayFoot">
-            <img src="images/slider_01.jpg" alt="Camion de ciment faisant le plein">
-        </figure>
         <section class="info">
           <div>
-            <span class="material-symbols-outlined">assistant_navigation</span>
+            <img src="./images/icon_nav.svg" class="svgW" alt="">
             <p>DABOU, FACE À L'AÉROPORT</p>
           </div>
           <div>
-            <span class="material-symbols-outlined">mail</span>
+            <img src="./images/icon_mail.svg" class="svgW" alt="">
             <a href="mailto:EXPERTBETON@EXPERTBETON.NET">EXPERTBETON@EXPERTBETON.NET</a>
           </div>
           <div>
-            <span class="material-symbols-outlined">deskphone</span>
+            <img src="./images/icon_deskphone.svg" class="svgW" alt="">
             <a href="tel:+2250141555555">+225 01 41 55 55 55 /</a>
             <a href="tel:+2250141909375">+225 01 41 90 93 75</a>
           </div>

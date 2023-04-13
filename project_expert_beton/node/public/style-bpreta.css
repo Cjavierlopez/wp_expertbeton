@@ -1,0 +1,63 @@
+article {  
+  margin: 10px auto;
+  text-align: center;
+  max-width: 768px;
+  z-index: 0;
+}
+
+h2 {
+  margin-top: 0.5rem;
+}
+
+h3 {
+  margin: 0;
+
+}
+
+section.aboutUs p {
+  color: #000;
+}
+
+.bg {
+  position: absolute;
+  height: 20em;
+  opacity: 10%;
+}
+
+hr.bpreta {
+  margin: auto;
+  width: 80%;
+  border-color: #e52e31;
+}
+
+.bl {
+  font-size: 4vw;
+  text-align: start;
+  margin: 5% 0 0 2.5%;
+}
+section.aboutUs article img {
+  height: 44vw;
+  max-height: 350px;
+}
+
+section.aboutUs article img.imgL {
+  height: 20vw;
+  max-height: 183px;
+}
+
+ul {
+  list-style-type: square;
+  font-size: 2.5vw;
+}
+
+ul li {
+  text-align: start;
+}
+@media (min-width: 768px) {
+
+  .bl + ul {
+    font-size: 30px;
+  }
+
+}
+

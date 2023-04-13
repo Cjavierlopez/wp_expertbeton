@@ -10,6 +10,7 @@ const getDB = async () => {
       pool = mysql.createPool({
         connectionLimit: 10,
         host: MYSQL_HOST,
+        port: 3000,
         user: MYSQL_USER,
         password: MYSQL_PASS,
         database: MYSQL_DB,
