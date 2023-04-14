@@ -55,9 +55,9 @@ ul li {
 }
 @media (min-width: 768px) {
 
-  .bl + ul {
+  .bl, ul {
     font-size: 30px;
   }
-
+  
 }
 
